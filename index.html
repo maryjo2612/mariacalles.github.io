@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Maria Calles | Resume </title>
+    </head>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            /* color: #333; */
+            background-color: #282727;
+            
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        h1,
+        h2 {
+            color: #007bff;
+        }
+        .header {
+            text-align: center;
+        }
+        .header h1 {
+            margin: 10px 0;
+
+            padding-left: 10%;
+        }
+        .contact {
+            margin: 10px 0;
+            font-size: 14px;
+        }
+        .contact a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .section {
+            margin: 20px 0;
+        }
+        .section h2 {
+            margin-bottom: 10px;
+            border-bottom: 2px solid #0888af4c;
+            padding-bottom: 5px;
+        }
+        .item {
+            margin-bottom: 15px;
+        }
+        .item h3 {
+            margin: 0;
+            font-size: 18px;
+            color: #555;
+        }
+        .item p {
+            margin: 5px 0;
+            font-size: 14px;
+        }
+        .skills ul {
+            list-style: none;
+            text-align: center;
+            padding: 0;
+        }
+        .skills ul li {
+            position: relative;
+            display: inline-block;
+            background: #5b8c88;
+            color: #fff;
+            padding: 5px 10px;
+            margin: 5px 5px 5px 0;
+            border-radius: 4px;
+            transition: all 0.5s;
+            overflow: hidden;
+            
+        }
+
+        .skills ul li:before {
+            content: "";
+            position: absolute;
+            background: rgba(255, 255, 255, 0.201);
+            width: 200%;
+            height: 150%;
+            border-radius: 50%;
+            bottom: -50px;
+            top: 0;
+            left: 0;
+            transform: translateX(-50%) scale(0);
+            transition: transform 0.4s ease-in-out;
+            
+        }
+
+        .skills ul li:hover {
+            background: #0888af;
+        }
+        .skills ul li:hover::before {
+            transform: translateX(-50%) scale(2);
+            bottom: -50%;
+        }
+
+        img {
+            border-radius: 100%;
+            float:left;
+            margin-left: 10%;;
+            width: 80px;
+            height: 85px;
+        }
+    </style>
+
+    <body>
+        
+        <main class="container">
+            <section class="header" >
+                <div>
+                    <img
+                    src="/img/maria-calles-img.jpg"></img>
+                </div>
+                <div>
+                    <h1>Maria Calles</h1>
+                    <p class="contact">
+                        Email:
+                        <a href="mailto:mariajo2612@gmail.com"
+                            >mariajo2612@gmail.com</a
+                        >
+                        | Phone: <a href="tel:+18593967290"> (859) 396-7290</a>
+                    </p>
+                </div>
+                
+            </section>
+            <section class="section" style="margin-top: 40px;">
+                <h2>Summary</h2>
+                <p>
+                    Junior web developer with experience in building and designing websites using Blazor, WordPress, 
+                    and modern front-end technologies. Pationated about continous learning and expanding technical skills in web development.
+                </p>
+            </section>
+            <section class="section">
+                <h2>Work Experience</h2>
+                <div class="item">
+                    <h3>Junior Web Dveloper - Sappkin Systems</h3>
+                    <ul>
+                        <li>Developed and maintained a reservarion system using blazor and PostgreSQL.</li>
+                        <li>Applied Entity Framework to manage database operations efficiently.</li>
+                        <li>Collaborated in an Agile environment using DevOps and Jira to track project progress.</li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <h3>Web Designer - Sappkin Systems</h3>
+                    <ul>
+                        <li>Designed an developed restaurantwebsites using WordPress and custom css.</li>
+                        <li>Created responsive layouts and optimized website performance.</li>
+                        <li>Designed corporate branding materials, including flyers, ads, and digital content.</li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <h3>Public Health Service - Louisville Metro Health Department</h3>
+                    <ul>
+                        <li>Continously applying technical and customer service skills in a public health setting.</li>
+                    </ul>
+                </div>
+            </section>
+            <div class="section">
+                <h2>Education</h2>
+                <div class="item">
+                    <h3>Bachelor of Computer Engineering - Universidad Jose Antotio Paez</h3>
+                </div>
+                <div class="item">
+                    <h3>Web Development Bootcamp - (Udemy)</h3>
+                </div>
+                <div class="item">
+                    <h3>Administering Microsoft SQL Server 2012</h3>
+                </div>
+                <div class="item">
+                    <h3>Digital Skills: User Experience</h3>
+                </div>
+            </section>
+            <section class="section">
+                <h2>Skills</h2>
+                <div class="skills">
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>Blazor</li>
+                        <li>WordPress</li>
+                        <li>Jira</li>
+                        <li>Python (Begginer level)</li>
+                        <li>Team Leadership</li>
+                        <li>CMS Tools</li>
+                        <li>Google Ads</li>
+                        <li>Adobe Photoshop</li>
+                        <li>Illustrator</li>
+                        <li>XD</li>
+                    </ul>
+                </div>
+            </section>
+            <section class="section">
+                <h2>Projects</h2>
+                <div class="item">
+                    <h3>Mi Pequeña Hacienda (2025)</h3>
+                    <p>
+                        New website for Mexican Restaurant located in Kentucky.
+                    </p>
+                </div>
+                <div class="item">
+                    <h3>El Toro Mexican Restaurant</h3>
+                    <p>
+                        New Website for Mexican Restaurant located in Lexington, Kentucky.
+                    </p>
+                </div>
+                <div class="item">
+                    <h3>RB Tech Import</h3>
+                    <p>
+                        Social Media Graphic Design.
+                    </p>
+                </div>
+            </section>
+        </main>
+    
+    </body>
+</html>
